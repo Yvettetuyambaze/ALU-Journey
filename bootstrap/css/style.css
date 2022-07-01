@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -11,12 +13,21 @@
 	width: 100%;
 	position: absolute;
 	background-position-y: -500px;
-	z-index: -1;
+	z-index: 1;
 }
 
-.intro .content h1{
+.intro .container-fluid{
+	margin-top: 500px;  margin-left: 50px;
+   color: #fff;
+}
+
+.intro .container-fluid h1{
 	position: relative;
-	font-size: 40px;
+	font-size: 72px;
+	display: flex;
+	letter-spacing: 2px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
 }
 
 
