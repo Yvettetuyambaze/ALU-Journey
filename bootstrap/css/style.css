@@ -17,8 +17,10 @@
 }
 
 .intro .container-fluid{
-	margin-top: 500px;  margin-left: 50px;
-   color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 500px;  margin-left: 90px;
+    color: #fff;
+   
 }
 
 .intro .container-fluid h1{
@@ -26,8 +28,12 @@
 	font-size: 72px;
 	display: flex;
 	letter-spacing: 2px;
-	font-family: 'Work Sans', sans-serif;
 	font-weight: bold;
+}
+
+.intro .container-fluid h5{
+	word-spacing: 30px;
+	margin-left: 10px;
 }
 
 
