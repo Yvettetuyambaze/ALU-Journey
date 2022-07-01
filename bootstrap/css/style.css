@@ -10,18 +10,18 @@
 	background-image: url("../img/im3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover !important;
-	height: 100%; width: 100%;
+	height: 200vh; width: 100%;
 	background-position: 50% 35%;
 	top: 0; right: 0; left:0;
 	display: flex;
 	z-index: 1;
+	background-attachment: fixed;
 }
 
 .intro .container-fluid{
 	font-family: 'Work Sans', sans-serif;
     color: #fff; 
 	margin-top: 500px;
-	width: 100%;
 	padding-left: 80px;
 }
 
