@@ -36,7 +36,10 @@
 	margin-left: 10px;
 }
 
-
+.icons{
+	margin-top: 200px;
+	float: right;
+}
 
 .icons a{
 		color:lavender;
@@ -49,3 +52,102 @@
 		padding: 10px;
 }
 
+
+.footer-social{
+    margin-top: 40px;
+}
+.footer-social a{
+    color: #333;
+    border: 1px solid #333;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50% 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding: 10px;
+}
+
+.footer-area .col-sm-6{
+    padding-top: 50px;
+}
+
+#col2 h5{
+    margin-left: 80px;
+}
+
+#col2 ul{
+       list-style: none;
+       text-decoration: none;
+       margin-left: 50px;
+}
+
+#col2 ul li{
+    margin-top: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+#col2 ul li a{
+    text-decoration:navajowhite;
+    color: #333;
+}
+
+#col2 ul li a i{
+    position: absolute;
+    left: 0; top: 5px;
+}
+
+#col3 ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+#col3 h6 i{
+    padding-right: 20px;
+}
+
+#col3 h5{
+    margin-left: 30px;
+}
+
+
+.footer-area{
+    margin-top: 100px;
+    padding: 100px 0;
+    position: relative;
+}
+
+.footer-area .container-fluid{
+    padding: 0 80px 0 80px;
+}
+
+.footer-area .container-fluid .row{
+    border-bottom: 40px;
+}
+
+.footer-wave{
+    background-image: url("../images/512-5121278_footer-background-image-png.png");
+    position: absolute;
+    left: 0; top: 0; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-wave-box{
+    position: absolute;
+    top:0; left:0; right:0;
+    height: 50px;
+    background-position: bottom;
+    background-color: blanchedalmond;
+}
+
+#p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
