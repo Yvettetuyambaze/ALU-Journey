@@ -1,15 +1,9 @@
 *{
 	margin: 0px;
 	padding: 0px;
+    box-sizing: border-box;
+}
 
-}
-body{
-	background-image: url(../img/Delivery.jpg);
-	
-}
-.welcome{
-	color: white;
-	align-items: center;
-	text-align: center;
-	font-size: larger;
+.intro{
+	background-image: url("../img/im.jpg");
 }
