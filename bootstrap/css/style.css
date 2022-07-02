@@ -41,6 +41,7 @@ body{
 	display: flex;
 	z-index: 1;
     margin-bottom: 84.48px;
+    border-bottom-right-radius: 30%;
 }
 
 .intro .container-fluid{
@@ -144,8 +145,6 @@ body{
     text-transform: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     text-align: left;
 }
 
