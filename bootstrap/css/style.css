@@ -45,9 +45,7 @@ body{
 .intro .container-fluid{
 	font-family: 'Work Sans', sans-serif;
     color: #fff; 
-	margin-top: 400px;
     overflow: hidden;
-    
 }
 
 /*@media (min-width: 767px) {
@@ -144,11 +142,43 @@ body{
     margin-inline-end: 0px;
 }
 
-/*.sidemenu{
-    width: 260px;
-    background-color:beige;
-    z-index: 555;
-}*/
+.sidenav {
+    height: 100%;
+    width: 350px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(68, 68, 197);
+    overflow-x: hidden;
+    padding-top: 20px;
+  
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+   
+}
+  
+.sidenav a:hover {
+    color: #131212;
+}
+  
+.main {
+    margin-left: 400px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    margin-right: 220px;
+    text-align: justify;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
 
 .footer-social{
@@ -220,41 +250,3 @@ body{
     text-transform: capitalize;
     margin-top: 70px;
 }
-
-.sidenav {
-    height: 100%;
-    width: 350px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:rgb(68, 68, 197);
-    overflow-x: hidden;
-    padding-top: 20px;
-  
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
-    font-size: 20px;
-   
-  }
-  
-  .sidenav a:hover {
-    color: #131212;
-  }
-  
-  .main {
-    margin-left: 400px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    margin-right: 220px;
-    text-align: justify;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
