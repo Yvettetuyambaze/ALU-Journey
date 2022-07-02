@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgba(255, 255, 255, 0.877);
+}
+
 .header{
     width: 100%;
     display: flex;
@@ -124,6 +128,18 @@
 .content-wrapper{
     padding: 84.48px 102.4px;
     justify-content: center;
+}
+
+.content-wrapper .row h3{
+    font-family: orpheus-pro;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /*.sidemenu{
