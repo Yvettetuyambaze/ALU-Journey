@@ -27,16 +27,26 @@
 	font-family: 'Work Sans', sans-serif;
     color: #fff; 
 	margin-top: 500px;
-	padding-left: 80px;
+    overflow: hidden;
 }
 
-.intro .container-fluid h1{
+@media (min-width: 767px) {
+    .intro .container-fluid .text h1{
+        font-size: 15%;
+    }
+}
+
+.intro .container-fluid .text{
+    margin-left: 80px;
+}
+
+.intro .container-fluid .text h1{
 	font-size: 72px;
 	letter-spacing: 2px;
 	font-weight: bold;
 }
 
-.intro .container-fluid h5{
+.intro .container-fluid .text h5{
 	word-spacing: 30px;
 	margin-left: 10px;
 }
@@ -58,12 +68,15 @@
         margin-inline: 10px;
 }
 
+.arrow{
+}
+
 .arrow span{
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid #06a8ff;
-    border-right: 5px solid #06a8ff;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
     transform: rotate(45deg);
     margin: -10px;
     animation: scroll 2s infinite;
@@ -111,6 +124,10 @@
 
 .footer-area .col-sm-6{
     padding-top: 50px;
+}
+
+.footer-area .row{
+    padding: 30px;
 }
 
 #col2 h5{
