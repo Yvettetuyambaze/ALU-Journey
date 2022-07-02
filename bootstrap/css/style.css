@@ -10,19 +10,32 @@
     width: 100%;
     display: flex;
 }
+.navbar{
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.877);
+}
+.navbar-nav a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-inline: 20px;
+}
+.nav-link{
+    display: flex;
+    color:black !important;
+}
 
 .intro{
 	background-image: url("../img/im3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover !important;
-	height: 150vh; width: 100%;
+	height: 100vh; width: 100%;
 	background-position: 50% 35%;
-    background-attachment: fixed;
     background-color: rgba(0,0,0,0.7);
     background-blend-mode: overlay;
 	top: 0; right: 0; left:0;
 	display: flex;
 	z-index: 1;
+    margin-bottom: 84.48px;
 }
 
 .intro .container-fluid{
@@ -39,6 +52,7 @@
 
 .intro .container-fluid .text{
     margin-left: 80px;
+    margin-top: 40px;
 }
 
 .intro .container-fluid .text h1{
@@ -109,6 +123,7 @@
 
 .content-wrapper{
     padding: 84.48px 102.4px;
+    justify-content: center;
 }
 
 /*.sidemenu{
