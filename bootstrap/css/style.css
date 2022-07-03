@@ -157,30 +157,30 @@ body{
     text-transform: none;
 }
 
-.sidenav {
+.sidemenu {
     height: 100%;
     width: 350px;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:rgb(68, 68, 197);
+    background-color:#222;
     overflow-x: hidden;
     padding-top: 20px;
-  
+    padding-top: 100px;
 }
   
-.sidenav a {
+.sidemenu a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #ffffff;
+    color: #fff;
     display: block;
     font-size: 20px;
    
 }
   
-.sidenav a:hover {
-    color: #131212;
+.sidemenu a:hover {
+    color:blue;
 }
   
 .main {
