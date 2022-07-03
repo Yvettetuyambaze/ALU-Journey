@@ -157,6 +157,10 @@ body{
     text-transform: none;
 }
 
+#sidebar .content-wrapper {
+    padding: 84.48px 0 84.48px;
+}
+
 .sidemenu {
     height: 100%;
     width: 350px;
@@ -165,12 +169,11 @@ body{
     left: 0;
     background-color:#222;
     overflow-x: hidden;
-    padding-top: 20px;
     padding-top: 100px;
 }
   
 .sidemenu a {
-    padding: 6px 8px 6px 16px;
+    padding: 8px 8px 8px 64px;
     text-decoration: none;
     font-size: 25px;
     color: #fff;
