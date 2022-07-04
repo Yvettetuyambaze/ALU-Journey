@@ -10,6 +10,9 @@
 body{
     background-color:rgba(255, 255, 255, 0.877);
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .header{
     width: 100%;
@@ -239,7 +242,7 @@ body{
 #story{
     display: flex;
 }
-#menu.{
+#menu {
  padding:right;
 }
 @media screen and (max-height: 450px) {
@@ -316,7 +319,4 @@ body{
     text-align: center;
     text-transform: capitalize;
     margin-top: 70px;
-}
-html{
-    scroll-behavior: smooth;
 }
