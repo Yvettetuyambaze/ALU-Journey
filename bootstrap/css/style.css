@@ -17,7 +17,7 @@ body{
 }
 .navbar{
     width: 100%;
-    background-color:rgba(255, 255, 255, 0.877);
+    background-color:rgba(255, 255, 255, 0.877)!important;
     position: fixed;
 }
 .navbar-nav a{
@@ -619,7 +619,8 @@ html{
         width: 208px;
         padding: 110px 10px 0;
         height: 93px;
-        background: url(../images/tooplate_site_header.png) no-repeat top
+        background-color: #000 no-repeat top;
+        z-index: 1;
     }
     
     #header h1 { 
@@ -711,12 +712,14 @@ html{
         text-decoration: none;
         text-align: center;
         color: #000;
-        background: url(../images/tooplate_menu.png) no-repeat
+        background-color: #000 no-repeat;
+        z-index: 1;
     }
     
     ul.navigation a.last {
         height: 98px;
-        background: url(../images/tooplate_menu_last.png) no-repeat top left;
+        background-color: #000 no-repeat top left;
+        z-index: 1;
     }
     
     ul.navigation a:hover, ul.navigation a.selected {
