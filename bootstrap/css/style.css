@@ -18,6 +18,7 @@ body{
 .navbar{
     width: 100%;
     background-color:rgba(255, 255, 255, 0.877);
+    position: fixed;
 }
 .navbar-nav a{
     font-size: 18px;
@@ -126,7 +127,7 @@ body{
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
-
+/** side menu style ******************************/
 .content-wrapper{
     padding: 84.48px 102.4px;
     justify-content: center;
@@ -162,20 +163,28 @@ body{
 }
 
 .sidemenu {
-    height: 100%;
-    width: 350px;
+    height: 80vh;
+    width: 20vw;
     z-index: 1;
     top: 0;
     left: 0;
     background-color:#222;
     overflow-x: hidden;
-    padding-top: 100px;
+    padding-top: 0px; 
+    text-transform: uppercase;
+    justify-content: space-around;
+
+   
+    
+}
+.sidemenu ul{
+    
 }
   
 .sidemenu a {
-    padding: 8px 8px 8px 64px;
+    padding: 20px 20px 20px 75px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     display: block;   
 }
@@ -184,17 +193,62 @@ body{
     color:blue;
 }
 
-.sidemenu .closebtn{
-    
+.section-content{
+    height: 100vh;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+   
+}
+#section1{
+    background: linear-gradient( -45deg, rgb(93, 193, 62) 30%, rgb(4, 143, 208) 0%);
+    width: 50%;
+    height: 60vh; 
+    margin-top: 20px;  
+}
+#section2{
+    background: linear-gradient( -45deg, rgb(144, 143, 143) 30%, rgb(206, 54, 54) 0%);
+    width: 50%;
+    margin-left: 800px;
+    height: 60vh;   
+}#section3{
+    background: linear-gradient( -45deg, rgb(116, 115, 115) 30%, rgb(59, 127, 43) 0%);
+    width: 50%;
+    height: 60vh; 
+    margin-top: 20px;
+}#section4{
+    background: linear-gradient( -45deg, rgb(91, 169, 84) 30%, yellow 0%);
+    width: 50%;
+    margin-left: 800px;
+    height: 60vh;   
+}#section5{
+    background: linear-gradient( -45deg, rgb(172, 49, 49) 30%, rgb(106, 196, 162) 0%);
+    width: 50%;
+    height: 60vh; 
+    margin-top: 20px;
+}
+#section6{
+    background: linear-gradient( -45deg, rgb(154, 37, 37) 30%, rgb(121, 121, 106) 0%);
+    width: 50%;
+    margin-left: 800px;
+    height: 60vh;  
 }
   
 .main {
     margin-left: 400px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
-    margin-right: 220px;
+    margin-right: 10px;
     text-align: justify;
 }
-  
+
+#story{
+    display: flex;
+}
+#menu.{
+ padding:right;
+}
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -269,4 +323,7 @@ body{
     text-align: center;
     text-transform: capitalize;
     margin-top: 70px;
+}
+html{
+    scroll-behavior: smooth;
 }
