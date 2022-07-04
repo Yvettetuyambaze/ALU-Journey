@@ -163,29 +163,26 @@ body{
 
 .sidemenu {
     height: 100%;
-    width: 350px;
-    z-index: 1;
-    top: 0;
-    left: 0;
+    width: 280px;
+    z-index: 555;
+    position: relative;
     background-color:#222;
     overflow-x: hidden;
-    padding-top: 100px;
+    padding-top: 175px;
 }
   
 .sidemenu a {
-    padding: 8px 8px 8px 64px;
+    font-family: 'Calibri';
+    padding: 8px 8px 10px 50px;
     text-decoration: none;
     font-size: 20px;
     color: #fff;
-    display: block;   
+    display: block;
+    overflow-wrap:break-word   
 }
   
 .sidemenu a:hover {
     color:blue;
-}
-
-.sidemenu .closebtn{
-    
 }
   
 .main {
