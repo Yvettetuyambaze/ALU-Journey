@@ -158,104 +158,8 @@ body{
     text-transform: none;
 }
 
-#sidebar .content-wrapper {
-    padding: 84.48px 0 84.48px;
-}
 
-.sidemenu {
-    height: 80vh;
-    width: 20vw;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#222;
-    overflow-x: hidden;
-    padding-top: 0px; 
-    text-transform: uppercase;
-    justify-content: space-around;
-
-   
-    
-}
-.sidemenu ul{
-    
-}
-  
-.sidemenu a {
-    padding: 20px 20px 20px 75px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #fff;
-    display: block;   
-}
-  
-.sidemenu a:hover {
-    color:blue;
-}
-
-.section-content{
-    height: 100vh;
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    display: flex;
-   
-}
-#section1{
-    background: linear-gradient( -45deg, rgb(93, 193, 62) 30%, rgb(4, 143, 208) 0%);
-    width: 50%;
-    height: 60vh; 
-    margin-top: 20px;  
-}
-#section2{
-    background: linear-gradient( -45deg, rgb(144, 143, 143) 30%, rgb(206, 54, 54) 0%);
-    width: 50%;
-    margin-left: 800px;
-    height: 60vh;   
-}#section3{
-    background: linear-gradient( -45deg, rgb(116, 115, 115) 30%, rgb(59, 127, 43) 0%);
-    width: 50%;
-    height: 60vh; 
-    margin-top: 20px;
-}#section4{
-    background: linear-gradient( -45deg, rgb(91, 169, 84) 30%, yellow 0%);
-    width: 50%;
-    margin-left: 800px;
-    height: 60vh;   
-}#section5{
-    background: linear-gradient( -45deg, rgb(172, 49, 49) 30%, rgb(106, 196, 162) 0%);
-    width: 50%;
-    height: 60vh; 
-    margin-top: 20px;
-}
-#section6{
-    background: linear-gradient( -45deg, rgb(154, 37, 37) 30%, rgb(121, 121, 106) 0%);
-    width: 50%;
-    margin-left: 800px;
-    height: 60vh;  
-}
-  
-.main {
-    margin-left: 400px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    margin-right: 10px;
-    text-align: justify;
-}
-
-#story{
-    display: flex;
-}
-#menu.{
- padding:right;
- 
-}
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-
+/* footer style*/
 .footer-social{
     margin-top: 40px;
 }
@@ -329,29 +233,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Create two equal columns that float next to each other
-.column-2 {
-    float: left;
-    width: 35%;
-    padding: 40px;
-    padding-left:70px;
-    padding-right: 70px;
-    height: 400px;
-    margin:30px;
-    margin-right:30px;
-    margin-bottom: 70px;
-    background-color: #FEDE00;
-    line-height:2;
-    margin-left: 100px;
-    background-color: #7fffd4;
-  }
-  /* Large profile image 
-.large-profile {
-    background: url('../img/profile.JPG');
-    background-size: cover;
-    background-position: center; 
-  } */
-    /* Large profile image */  /* Large profile image */  /* Large profile image */  /* Large profile image */  /* Large profile image */
+    /* My story page style*/
     body {
         margin: 0px;
         padding: 0px;
@@ -522,54 +404,7 @@ html{
         background: url(../images/onebit_19.png) center left no-repeat; 
     }
     
-    #contact_form {  
-        padding: 0; 
-        width: 340px; 
-    }
-    
-    #contact_form form { 
-        margin: 0px; 
-        padding: 0px; 
-    }
-    
-    #contact_form form .input_field { 
-        width: 240px; 
-        padding: 5px; 
-        color: #333; 
-        background: #ffffff; 
-        border: 1px solid #dddad6; 
-        font-family: Verdana,Geneva,sans-serif;
-        font-size: 12px;
-        margin-top: 5px; 
-    }
-    
-    #contact_form form label { 
-        display: block; 
-        width: 100px; 
-        margin-right: 10px; 
-        font-size: 13px; 
-    }
-    
-    #contact_form form textarea { 
-        width: 328px;  
-        height: 80px; 
-        padding: 5px;
-        color: #333; 
-        background: #ffffff; 
-        border: 1px solid #dddad6; 
-        font-family: Verdana,Geneva,sans-serif;
-        font-size: 12px;
-        margin-top: 5px; 
-    }
-    
-    #contact_form form .submit_btn {
-        margin: 5px 0px;
-        padding: 5px 14px;
-        background: #ffffff; 
-        border: 1px solid #dddad6;
-    }
-    
-    /* gallery */
+    /* Social Life  Style */
     #gallery_container { 
         clear: both; 
         margin: 0; 
@@ -598,7 +433,7 @@ html{
         border: 1px dotted #333; 
         background: none; 
     }
-    /* end of gallery */
+    /* end of Social Life  Style */
     #slider {
         position: relative;
         width: 100%;
@@ -615,27 +450,14 @@ html{
         width: 228px;
     }
     
-    #header { 
+    #header2 { 
         width: 208px;
-        padding: 110px 10px 0;
+        padding: 110px -10px 10px;
         height: 93px;
-        background-color: #000 no-repeat top;
-        z-index: 1;
+        text-shadow: 5px 5px 10px rgb(41, 40, 40);
+      
     }
-    
-    #header h1 { 
-        margin: 0; 
-        padding: 0; 
-    }
-    
-    #header h1 a { 
-        display: block; 
-        width: 180px; 
-        height: 23px; 
-        margin: 0 auto; 
-        background: url(../images/tooplate_logo.png) top center no-repeat; 
-        text-indent: -10000px; 
-    }
+   
     
     #menu {
         clear: both;
@@ -648,7 +470,9 @@ html{
         width: 502px;
         height: 576px;	
         padding: 10px;
-        background: url(../images/tooplate_main.png) no-repeat top left
+        background: url(../images/tooplate_main.png) no-repeat top left;
+        
+       
     }
     
     .content_section {
@@ -712,18 +536,21 @@ html{
         text-decoration: none;
         text-align: center;
         color: #000;
-        background-color: #000 no-repeat;
-        z-index: 1;
+        background: url(../img/black.jpg.png) no-repeat;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-shadow: 5px 5px 10px rgb(85, 85, 85);
     }
     
     ul.navigation a.last {
         height: 98px;
-        background-color: #000 no-repeat top left;
-        z-index: 1;
+        background: url(../img/black.jpg.png) no-repeat top left;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
     }
     
     ul.navigation a:hover, ul.navigation a.selected {
-        color: rgb(255, 255, 255);
+        color: rgb(231, 132, 18);
     }
     
     ul.navigation a:focus {
