@@ -247,7 +247,7 @@ html{
     }
     
     a, a:link, a:visited { 
-        color: #98610c; 
+        color: #1907a4; 
         text-decoration: none; 
     }
     
@@ -256,7 +256,7 @@ html{
     }
     
     .orange {
-        color: #C60;
+        color: rgb(110, 3, 3);
     }
     
     .green {
@@ -340,7 +340,7 @@ html{
     blockquote { font-style: italic; margin: 0 0 0 10px;}
     cite { font-weight: bold; color:#333; }
     cite span { color: #333; }
-    em { color: #ab6700; }
+    em { color: #570404; }
     
     .btn_more a {
         display: inline-block;
@@ -436,11 +436,11 @@ html{
     /* end of Social Life  Style */
     #slider {
         position: relative;
-        width: 100%;
+        width: 80%;
     }
     
     #tooplate_wrapper {
-        width: 800px;
+        width: 900px;
         padding: 0 10px;
         margin: 0 auto;
     }
@@ -462,15 +462,15 @@ html{
     #menu {
         clear: both;
         width: 228px;
+        
     }
     
     #content {
         float: right;
         margin-top: 60px;
-        width: 502px;
+        width: 600px;
         height: 576px;	
         padding: 10px;
-        background: url(../images/tooplate_main.png) no-repeat top left;
         
        
     }
@@ -501,7 +501,7 @@ html{
     }
     
     .scroll {
-        width: 373px;
+        width: 800px;
         height: 476px;
         margin: 50px 80px 50px 50px;
         overflow: auto;
@@ -511,8 +511,8 @@ html{
     }
     
     .scrollContainer div.panel {
-        width: 373px;
-        height: 476px;
+        width: 800px;
+        height: 500px;
         overflow: hidden;
     }
     
@@ -534,23 +534,21 @@ html{
         font-size: 16px;
         font-weight: 700;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
         color: #000;
-        background: url(../img/black.jpg.png) no-repeat;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         border-radius: 20px;
         text-shadow: 5px 5px 10px rgb(85, 85, 85);
     }
     
     ul.navigation a.last {
         height: 98px;
-        background: url(../img/black.jpg.png) no-repeat top left;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         border-radius: 20px;
     }
     
     ul.navigation a:hover, ul.navigation a.selected {
-        color: rgb(231, 132, 18);
+        color: rgb(231, 18, 68);
     }
     
     ul.navigation a:focus {
@@ -574,3 +572,11 @@ html{
     .hide {
         display: none;
     }
+    .vl {
+        border-left: 2px solid rgb(0, 0, 0);
+        height: 450px;
+        position: absolute;
+        left: 50%;
+        margin-left: -110px;
+        margin-top: 100px;
+        top: 0;}
