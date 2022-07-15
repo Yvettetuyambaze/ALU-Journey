@@ -43,7 +43,7 @@ h3{
     font-weight: 500px, !important;
 }
 
-.intro{
+#intro{
 	background-image: url("../img/im3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover !important;
@@ -58,7 +58,7 @@ h3{
     border-bottom-right-radius: 30%;
 }
 
-.intro .container-fluid{
+#intro .container-fluid{
 	font-family: 'Work Sans', sans-serif;
     color: #fff; 
     overflow: hidden;
@@ -70,19 +70,19 @@ h3{
     }
 }*/
 
-.intro .container-fluid .text{
+#intro .container-fluid .text{
     margin-left: 80px;
     margin-top: 40px;
 }
 
-.intro .container-fluid .text h1{
+#intro .container-fluid .text h1{
 	font-size: 72px;
 	letter-spacing: 2px;
 	font-weight: bold;
     margin-top: 20px;
 }
 
-.intro .container-fluid .text h5{
+#intro .container-fluid .text h5{
 	word-spacing: 30px;
 	margin-left: 10px;
 }
