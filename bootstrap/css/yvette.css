@@ -72,14 +72,13 @@ h3{
 
 #intro .container-fluid .text{
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 #intro .container-fluid .text h1{
 	font-size: 72px;
 	letter-spacing: 2px;
 	font-weight: bold;
-    margin-top: 20px;
 }
 
 #intro .container-fluid .text h5{
