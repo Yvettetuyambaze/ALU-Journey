@@ -10,24 +10,37 @@
 body{
     background-color:rgba(255, 255, 255, 0.877);
 }
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+h3{
+    font-weight: 800px;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.collapse img {
+    margin-left: 350px;
+}
 
-.header{
-    width: 100%;
-    display: flex;
+.nav-link {
+    padding: 14px 22px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: rgb(203, 203, 238);
+    background-color: rgb(158, 12, 12);
 }
-.navbar{
-    width: 100%;
-    background-color:rgba(255, 255, 255, 0.877)!important;
-    position: fixed;
+.nav-link:hover{
+    transform: translateY(-5px);
 }
-.navbar-nav a{
-    font-size: 18px;
-    font-weight: 400;
-    margin-inline: 20px;
-}
-.nav-link{
-    display: flex;
-    color:black !important;
+.text-uppercase{
+    color: rgb(158, 12, 12);
+    font-weight: 500px, !important;
 }
 
 .intro{
