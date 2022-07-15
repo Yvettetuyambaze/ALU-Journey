@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color:rgba(255, 255, 255, 0.877);
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+.navbar h3{
+    font-weight: 800px;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+header .collapse .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .nav-link {
+    padding: 14px 22px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    background-color: rgb(158, 12, 12);
+}
+header .nav-link:hover{
+    transform: translateY(-5px);
+}
+header .text-uppercase{
+    color: rgb(158, 12, 12);
+    font-weight: 500px, !important;
+}
