@@ -8,6 +8,7 @@ body{
     background-color:rgba(255, 255, 255, 0.877);
 }
 
+/* header starts here*/
 .navbar a {
     text-decoration: none;
     transition: all 0.4s ease;
@@ -18,6 +19,7 @@ body{
 }
 .navbar {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    background-color:rgba(255, 255, 255, 0.877);
 }
 header .collapse .center {
     display: block;
@@ -41,5 +43,28 @@ header .text-uppercase{
     color: rgb(158, 12, 12);
     font-weight: 500px, !important;
 }
+/**header ends here**/
 
-/**intro style starts here**/
+/**intro section starts here**/
+#intro{
+	background-image: url("../img/im3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	height: 100vh; width: 100%;
+	background-position: 50% 35%;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: overlay;
+	top: 0; right: 0; left:0;
+	display: flex;
+	z-index: 1;
+    margin-bottom: 84.48px;
+    border-bottom-right-radius: 30%;
+}
+
+#intro .container-fluid{
+	font-family: 'Work Sans', sans-serif;
+    color: #fff; 
+    overflow: hidden;
+}
+
+/**intro section ends here**/
