@@ -586,7 +586,7 @@ html{
     }
     .vl {
         border-left: 2px solid rgb(0, 0, 0);
-        height: 450px;
+        height: 500px;
         position: absolute;
         left: 50%;
         margin-left: -110px;
