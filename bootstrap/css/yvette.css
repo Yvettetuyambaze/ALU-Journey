@@ -42,9 +42,25 @@ h3{
     color: rgb(158, 12, 12);
     font-weight: 500px, !important;
 }
-
+/*yvette big picture*/
 #intro{
 	background-image: url("../img/im3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	height: 100vh; width: 100%;
+	background-position: 50% 35%;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: overlay;
+	top: 0; right: 0; left:0;
+	display: flex;
+	z-index: 1;
+    margin-bottom: 84.48px;
+    border-bottom-right-radius: 30%;
+    filter: brightness(140%);
+}
+/*ganiyat big picture*/
+#intro2{
+	background-image: url("../images/ganiyat.JPG");
 	background-repeat: no-repeat;
 	background-size: cover !important;
 	height: 100vh; width: 100%;
@@ -586,7 +602,7 @@ html{
     }
     .vl {
         border-left: 2px solid rgb(0, 0, 0);
-        height: 450px;
+        height: 500px;
         position: absolute;
         left: 50%;
         margin-left: -110px;
