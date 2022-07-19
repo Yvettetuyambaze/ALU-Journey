@@ -87,17 +87,19 @@
 
  <section>
      <div class="icons">
-      <a href=""><i class="fa fa-facebook"></i></a>
-      <a href=""><i class="fa fa-twitter"></i></a>
-      <a href=""><i class="fa fa-instagram"></i></a>
-      <a href=""><i class="fa fa-linkedin"></i></a>
+      <ul class="sticky">
+         <li><a href=""><i class="fa fa-facebook"></i></a></li>
+         <li><a href=""><i class="fa fa-twitter"></i></a></li>
+         <li><a href=""><i class="fa fa-instagram"></i></a></li>
+         <li><a href=""><i class="fa fa-linkedin"></i></a><li>
+      </ul>
     </div>
 
     <div class="content-wrapper">
       <div class="container">
         <div class="row">
   
-          <div class="col-md-6 col-sm-12" id="col1">
+          <div class="col-md-6 col-sm-12 fade-in" id="col1">
             <img src="../images/chris/79706.jpg" alt="pic" style="height: 36rem">
           </div>
   
@@ -112,11 +114,136 @@
     </div>
   </section>
 
-  <script>
-      document.getElementsByClassName("icons").addEventListener("mouseover", function() {
-    document.getElementsByClassName("icons").style.position = "fixed";
- });
-  </script>
+  <section id="header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3 style="text-align: center;"> Get to know me and relive my journey </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+    <!-- start of sidebar -->
+    <section id="vertical-menu">       
+            <div class="container-fluid" style="display: flex;">
+              <div class="side"><span>Biography</span></div>
+          <div class="menu-item_title-container" style="position: relative;">
+  
+            <ul  data-scroll-content class="sidemenu">
+            
+              <li class="active" data-target="#background"><span  class="menu-item_index">01</span>
+                  <a class="menu-item_title" style="display: block;">Background</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a> Background </a></li>
+                    <li class="menu-item"><a> Background </a></li>
+                   </ul>
+                
+              </li>
+              <div class="border-bottom"></div>
+               
+              <li data-target="#alu"><span  class="menu-item_index">02</span>
+                <a class="menu-item_title" style="display: block;">ALU Journey</a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a> Background </a></li>
+                  <li class="menu-item"><a> Background </a></li>
+                 </ul>
+              </li>
+              <div class="border-bottom"></div>
+  
+              <li data-target="#experience"><span class="menu-item_index">03</span>
+                <a class="menu-item_title" style="opacity: 1;">Experience in Mauritius</a>
+                
+              </li>
+              <div class="border-bottom"></div>
+  
+              <li data-target="#social"><span  class="menu-item_index">04</span>
+                <a class="menu-item_title" style="opacity: 1;">Social Life</a>
+                
+              </li>
+              <div class="border-bottom"></div>
+  
+              <li data-target="#ideas"><span class="menu-item_index">05</span>
+                <a class="menu-item_title" style="opacity: 1;">Ideas for the future</a>
+              </li>
+              <div class="border-bottom"></div>
+            </ul>
+          </div>
+  
+          <ul class="content">
+            <li class="active" id="background">
+              <h1>Hi, I'm Christiana</h1>
+                  <p>Christiana Oluwabunmi Ola is an aspiring Cyberspace Security Professional, an Entrepreneur and an Ambassador of the Apinke Girls Initiative. She is a Computing student at the African Leadership College, Mauritius. 
+                   Christiana is a Nigerian by nationality and orginally from Oyo state. she resides with her family in Ijegun, Lagos state.
+                   She is the last child of a family of seven and the only daughter.
+                  </p>
+                   
+                  <div class="row">
+                    <div class="col-sm-6" style="width: 40%;">
+                      <p> Before moving to ALU, Christiana completed her secondary school at Ijegun Senior Comprehensive High School, Isolo Road, Lagos.
+                           where she wrote her senior secondary school certification exam (WAEC). </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                         <img src="../images/chris/high-sch pic.jpg" alt="high-sch pic" style="height: 13rem; margin-top: 40px;">
+                    </div>
+                  </div>
+            </li>
+  
+            <li id="alu">
+              <h1>ALU Journey</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea voluptatum, dignissimos ut nobis tempore blanditiis, tenetur expedita eaque debitis libero totam beatae quis fuga. Dolore blanditiis dicta ipsa nihil!</p>
+            </li>
+  
+            <li id="experience">
+              <h1>Experience in Mauritius</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea voluptatum, dignissimos ut nobis tempore blanditiis, tenetur expedita eaque debitis libero totam beatae quis fuga. Dolore blanditiis dicta ipsa nihil!</p>
+            </li>
+  
+            <li id="social">
+              <h1>Social Life</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea voluptatum, dignissimos ut nobis tempore blanditiis, tenetur expedita eaque debitis libero totam beatae quis fuga. Dolore blanditiis dicta ipsa nihil!</p>
+            </li>
+  
+            <li id="ideas">
+              <h1>Ideas for the Future</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ea voluptatum, dignissimos ut nobis tempore blanditiis, tenetur expedita eaque debitis libero totam beatae quis fuga. Dolore blanditiis dicta ipsa nihil!</p>
+            </li>
+          </ul>
+        </div>
+    </section>
+         <!-- end of sidemenu -->
+
+         <script>
+          const allSidemenu = document.querySelectorAll(".sidemenu li");
+          const allContent = document.querySelectorAll(".content li");
+  
+          allSidemenu.forEach(item=> {
+            item.addEventListener('click', function () {
+                   const content = document.querySelector(this.dataset.target);
+   
+                   allSidemenu.forEach(li=> {
+                    li.classList.remove('active');
+                   })
+  
+                   allContent.forEach(li=> {
+                    li.classList.remove('active');
+                   })
+  
+                   content.classList.add('active');
+                   this.classList.add('active');
+            })
+          }
+          )
+         </script>
+
+  <div class="container">
+    <div data-testid="linkElement" class="_6lnTT" aria-disabled="false">
+      <span class="vertical">CONTACT</span>
+    </div>
+    <div class="border"></div>
+  </div>
   
 
     <!--Bootstrap Bundle with Popper-->
