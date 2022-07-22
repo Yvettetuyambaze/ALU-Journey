@@ -353,6 +353,13 @@ header .text-uppercase{
     word-spacing: 5px;
 }
  
+#experience p {
+    margin-top: 3rem;
+    font-family: 'Raleway', sans-serif;
+    width: 85%;
+    font-weight: 600;
+    word-spacing: 5px;
+}
 @media screen and (max-width: 720px) {
     #vertical-menu .sidemenu{
          padding-left: 5px;
