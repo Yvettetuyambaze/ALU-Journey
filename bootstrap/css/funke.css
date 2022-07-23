@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@200;300&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: transparent !important;
+}
+
+/* header starts here*/
+.navbar a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+.navbar h3{
+    font-weight: 800px;
+}
+.navbar {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+header .collapse .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .nav-link {
+    padding: 5px 22px;
+    margin-inline: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(158, 12, 12);
+}
+header .nav-link:hover{
+    transform: translateY(-5px);
+}
+header .text-uppercase{
+    color: rgb(158, 12, 12);
+    font-weight: 500px, !important;
+}
+/**header ends here**/
