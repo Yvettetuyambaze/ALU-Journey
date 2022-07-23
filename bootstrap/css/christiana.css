@@ -51,12 +51,12 @@ header .text-uppercase{
 
 /**intro section starts here**/
 #intro{
-	background-image: url("../images/chris/IMG_20210129_141132_471.jpg");
+	background-image: url("../images/chris/IMG-20220327-WA0080.jpg");
 	background-repeat: no-repeat;
 	background-size: cover !important;
 	height: 140vh; width: 100%;
-	background-position: 50% 6%;
-    background-color: rgba(0,0,0,0.3);
+	background-position: 50% 30%;
+    background-color: rgba(0,0,0,0.5);
     background-blend-mode: overlay;
 	top: 0; right: 0; left:0;
 	display: flex;
@@ -239,7 +239,7 @@ header .text-uppercase{
 #vertical-menu .side{
       opacity: 1;
       position: absolute;
-      font-size: 40px;
+      font-size: 30px;
       right: 80px;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
@@ -250,7 +250,6 @@ header .text-uppercase{
     list-style: none;
     padding-top: 50px;  
     padding-bottom: 28px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
     flex: 1;
