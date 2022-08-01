@@ -9,39 +9,59 @@
 }
 
 body{
-    background: transparent !important;
+    background: rgba(255, 255, 255, 0.881);
+    overflow-x: hidden;
+}
+html{
+    min-width: 100%;
 }
 
-/* header starts here*/
-.navbar a {
+body{
+    background: transparent !important;
+    width: 100%;
+}
+
+
+/*nav  section starts here*/
+nav a {
     text-decoration: none;
     transition: all 0.4s ease;
     font-weight: 700;
-}
-.navbar h3{
-    font-weight: 800px;
-}
-.navbar {
+  }
+
+  .navbar {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
-    background-color:#fff;
-}
+    background-color: #fff;
+  }
+  
+  nav .collapse img {
+    margin-left: 350px;
+  }
+  
+  .nav-link {
+    margin: 10px;
+    transition: all 0.3s ease;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: rgb(203, 203, 238);
+    background-color: rgb(158, 12, 12);
+  }
+  
+  nav .active {
+    background-color: rgb(14, 14, 95);
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(14, 14, 95);
+    transform: translateY(-5px);
+  }
+/*navbar ends here*/
+
+/* header starts here*/
 header .collapse .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-header .nav-link {
-    padding: 5px 22px;
-    margin-inline: 10px;
-    margin-top: 10px;
-    transition: all 0.3s ease;
-    border-radius: 10px;
-    text-align: center;
-    background-color: rgb(158, 12, 12);
-}
-header .nav-link:hover{
-    transform: translateY(-5px);
 }
 header .text-uppercase{
     color: rgb(158, 12, 12);
@@ -50,13 +70,12 @@ header .text-uppercase{
 /**header ends here**/
 
 /**intro section starts here**/
-#intro{
-	background-image: url("../images/ayishat/IMG-0766.jpg");
-	background-repeat: no-repeat;
+.intro{
+    background-repeat: no-repeat;
 	background-size: cover !important;
 	height: 140vh; width: 100%;
-	background-position: 50% 90%;
-    background-color: rgba(0,0,0,0.4);
+	background-position: 50% .9%;
+    background-color: rgba(0,0,0,0.5);
     background-blend-mode: overlay;
 	top: 0; right: 0; left:0;
 	display: flex;
@@ -64,14 +83,49 @@ header .text-uppercase{
     margin-bottom: 84.48px;
 }
 
-#intro .container-fluid{
+.intro .container-fluid{
 	font-family: 'Work Sans', sans-serif;
     color: #fff; 
     overflow: hidden;
 }
 
-#intro .text{
-    width: 30%;
+.intro .text{
+    width: 40%;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 60px;
+}
+
+.intro .container-fluid .text h1{
+	font-size: 50px;
+    font-weight: 600;
+}
+
+.intro .container-fluid .text h5{
+	word-spacing: 30px;
+}
+
+#introayishatu{
+	background-image: url("../Images/Ayi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	height: 140vh; width: 100%;
+	background-position: 50% 90%;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+	top: 0; right: 0; left:0;
+	display: flex;
+	z-index: 1;
+    margin-bottom: 84.48px;
+}
+
+#introayishatu .container-fluid{
+	font-family: 'Work Sans', sans-serif;
+    color: #fff; 
+}
+
+#introayishatu .text{
+    width: 35%;
     position: absolute;
     bottom: 50px;
     right: 30px;
@@ -79,41 +133,16 @@ header .text-uppercase{
 
 }
 
-#intro .container-fluid .text h1{
+#introayishatu .container-fluid .text h1{
 	font-size: 60px;
     font-weight: 600;
 }
 
-#intro .container-fluid .text h5{
+#introayishatu .container-fluid .text h5{
 	word-spacing: 30px;
 }
 /**intro section ends here**/
 
-/**arrow styles starts here**/
-.arrow{
-    margin-left: 50%; margin-right: 50%;
-    position: absolute;
-    bottom: 0;
-}
-
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: scroll 2s infinite;
-}
-
-.arrow span:nth-child(2){
-    animation-delay: -.2s;
-}
-
-.arrow span:nth-child(3){
-    animation-delay: -.4s;
-}
 
 @keyframes scroll{
     0% {
@@ -130,44 +159,21 @@ header .text-uppercase{
 }
 /**arrow styles ends here**/
 
-/**icons styles starts here**/
-.icons{
-    position: absolute;
-     right: 120px;
-}     
-.icons ul{
-    list-style: none;
-}
-.icons a{
-		color: rgb(51, 58, 158);
-		border: 1px solid rgb(51, 58, 158);
-		width: 30px;
-		height: 30px;
-		display: block;
-		text-align: center;
-		border-radius: 50% 50%;
-		padding: 2px;
-        margin-bottom: 10px;
-}
-/**icons styles ends here**/
-
 /**content-wrapper starts ends here**/
 .content-wrapper{
-    padding: 100px 80px;
+    padding: 100px 50px;
     justify-content: center;
     width: 100%;
 }
 .content-wrapper .row{
     width: 100%;
+    margin: 0; padding: 0;
 }
 
 .content-wrapper .row #col1 div {
     margin-top: 8pc;
     margin-left: 30px;
     width: 80%;
-}
-.content-wrapper .row #col2 img{
-      margin-left: 30px;
 }
 
 .content-wrapper .row h3{
@@ -211,9 +217,8 @@ header .text-uppercase{
 
 /**header-text section starts here**/
 #header-text{
-    background-color:rgb(215, 195, 195);
     color:#333;
-    height: 70vh;
+    height: 50vh;
 }
 
 #header-text h3{
@@ -235,17 +240,16 @@ header .text-uppercase{
 }
 /**header-text section ends here**/
 
-//** sidemenu starts here**/
+/** sidemenu starts here**/
 #vertical-menu{
     height: auto;
     --top-offset: 10px;
-    margin-bottom: 300px;
     width: 100%;
 }
 #vertical-menu .side{
       opacity: 1;
       position: absolute;
-      font-size: 40px;
+      font-size: 25px;
       right: 80px;
       writing-mode: vertical-lr;
       transform: rotate(180deg);
@@ -260,7 +264,8 @@ header .text-uppercase{
     flex-direction: column;
     flex: 1;
     border-right: 0.6px solid;
-    height: 90vh;
+    height: 150vh;
+    
 }
 
 
@@ -281,15 +286,15 @@ header .text-uppercase{
     cursor: pointer;
 }
 
-.sidemenu li.active {
-     color: blue !important;
+.sidemenu li.active{
+    border-right: 2.5px solid darkred;
+    color: #0d6efd;
 }
-.sidemenu li:hover{
-    background-color: beige;
-}
+
 .menu-item_title-container{
     height: 85vh;
     width: 35%;
+    
 }
 
 .menu-item_index{
@@ -317,18 +322,20 @@ header .text-uppercase{
 }
 
 #vertical-menu ul{
-    padding-left: 4rem;
+    padding-left: 5rem;
+    margin-bottom: 0;
 }
 
 #vertical-menu .container-fluid{
-    display: flex;
-    padding: 0 100px 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 #vertical-menu .content{
     padding-top: 50px;
-    width: 80%;
+    width: 85%;
     word-wrap: break-word;
+    height: 150vh;
 }
 #vertical-menu .content li{
     display: none;
@@ -340,8 +347,8 @@ header .text-uppercase{
     display: block;
 }
 
-.sidemenu li ul.sub-menu {
-    display: none;
+#vertical-menu .content h1{
+    margin-top: 29px;
 }
 
 #background p{
@@ -381,15 +388,145 @@ header .text-uppercase{
     font-weight: 600;
     word-spacing: 5px;
 }
-@media screen and (max-width: 720px) {
-    #vertical-menu .sidemenu{
-         padding-left: 5px;
-    }
-}
-@media screen and (max-width: 576px) {
-    #vertical-menu .container-fluid{
-        flex-direction: column;
-    }
-}
 
 /**sidemenu ends here**/
+
+/** contact styles starts here**/
+#contact .container{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    padding: 0 60px 0 60px;
+}
+#contact .vertical{
+      opacity: 1;
+      font-size: 30px;
+      color: #000;
+      font-weight: 400;
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      margin: 20px 0 30px 0;
+      white-space: nowrap;
+      letter-spacing: 0.1em;
+      margin-right: 0;
+      margin-bottom: 20px;
+      
+}
+
+#contact .border{
+     width: 30px;
+     height: 11rem;
+     background-color: #333;
+     margin-left: 10px;
+}
+
+#contact #f-orm{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+#contact form{
+    width: 250px;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-family: Calibri;
+}
+
+#contact #gridContainer{
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-rows: repeat(4, min-content) 1fr;
+    grid-template-columns: 100%;
+    min-height: auto;
+    
+}
+
+#contact input{
+    height: 50px;
+}
+
+#contact #texta{
+    padding: 3px 3px 3px 24px;
+    border: 0.8px solid;
+}
+.submit{
+    border: none;
+    background: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 200;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/** contact styles ends here**/
+
+/**icons styles starts here**/
+.icons{
+    display: inline-block;
+}     
+.icons ul{
+    list-style: none;
+}
+.icons a{
+		color: rgb(51, 58, 158);
+		border: 1px solid rgb(51, 58, 158);
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 50% 50%;
+		padding: 2px;
+}
+/**icons styles ends here**/
+
+
+/*footer starts here*/
+footer {
+    background: rgb(14, 14, 95);
+  }
+  
+  .text-uppercase {
+    color: rgb(158, 12, 12);
+    font-weight: 500px,  !important;
+  }
+  
+  .back-to-top {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    display: none;
+    left: 0px;
+    bottom: 50px;
+    z-index: 100;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  .back-to-top:hover {
+    background-color: #fff;
+    box-shadow: 5px 10px 25px #555;
+  }
+  
+  .back-to-top i {
+    color: rgb(158, 12, 12);
+    font-size: 50px;
+    padding: 5px;
+  }
+  
+  .back-to-top i:hover {
+    font-size: 50px;
+    padding: 5px;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  .show {
+    opacity: 1;
+    display: block;
+}
+
+
